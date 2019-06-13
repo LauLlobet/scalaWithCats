@@ -9,5 +9,6 @@ libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.4"
 
 scalacOptions ++= Seq(
   "-Xfatal-warnings",
-  "-Ypartial-unification"
+  "-Ypartial-unification",
+  "-unchecked"
 )
